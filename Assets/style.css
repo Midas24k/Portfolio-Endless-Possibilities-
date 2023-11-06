@@ -1,0 +1,106 @@
+*{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-style:normal;
+    color: #F9F8FF;
+    display:inline-block;
+    background-color:#090A27;
+}
+
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-display: center;
+    color: antiquewhite;
+    font: 48px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+.hero-section {
+    position: relative;
+}
+
+.hero-section img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.hero-section h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    color:antiquewhite; /* Choose your desired text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow */
+}
+.cta-buttons {
+    margin-top: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.cta-button:hover {
+    background-color: #0056b3; /* Hover background color */
+}
+
+.cta-button:last-child {
+    margin-right: 0;
+}
+.about-me {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.about-me-image {
+    flex: 1;
+}
+
+.about-me-image img {
+    max-width: 100%;
+    display: block;
+}
+
+.about-me-text {
+    flex: 2;
+    padding: 20px;
+}
+
+.about-me-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-me-text p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+Content {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:antiquewhite;
+    font: 24px;
+    width: 450;
+    height: 500;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
