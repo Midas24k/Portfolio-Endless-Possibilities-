@@ -8,7 +8,7 @@
     font: 48px;
     border: 10px solid;
     height: 100px;
-    width: 100%;
+    width: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -17,7 +17,7 @@
     flex:1;
     flex-wrap: wrap;
     padding: 10px;
-    margin-left: 35px;
+    margin-left: auto;
 }
 .nav-list {
     flex:2;
@@ -40,6 +40,8 @@ nav ul li {
 nav ul li a {
     color: whitesmoke;
     font-size: 24px;
+    padding: 7px 13px;
+    border-radius: 3px;
     text-transform: uppercase;
 }
 
@@ -47,13 +49,16 @@ a.active,a:hover {
     background: #212b35;
     transition: .5s;
 }
-.hero {
+
+ 
+.hero{
     background-color: #212b35;
     background-image: url(/Users/roderickhughey/Portfolio-Endless-Possibilities/Assets/raphael-nogueira-svbDI1Pq30s-unsplash.jpg);
     padding-top: 200px;
     padding-bottom: 200px;
-
 }
+    
+
 
 .body {
     font-weight: 300;
