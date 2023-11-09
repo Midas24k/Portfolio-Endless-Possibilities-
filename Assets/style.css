@@ -2,31 +2,29 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 300;
     font-style:normal;
-    color: #F9F8FF;
-    display:inline-block;
-    background-color:#090A27;
+   
 }
 
-header{
+.header{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-display: center;
     color: antiquewhite;
     font: 48px;
-}
+    border: 10px solid;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
 
-body {
+}
+.nav-list {
+    display: inline-flex;
+}
+.body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+   background-color: #212b35;
 }
 
-header {
-    text-align: center;
-}
-
-.hero-section {
-    position: relative;
-}
 
 .hero-section img {
     max-width: 100%;
@@ -39,32 +37,11 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 36px;
-    color:antiquewhite; /* Choose your desired text color */
+    font-size: 48px;
+    color:antiquewhite; /* Choose text color */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow */
 }
-.cta-buttons {
-    margin-top: 20px;
-}
 
-.cta-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007BFF; /* Button background color */
-    color: #fff; /* Button text color */
-    text-decoration: none;
-    border: none;
-    border-radius: 4px;
-    margin-right: 10px;
-}
-
-.cta-button:hover {
-    background-color: #d7dadd; /* Hover background color */
-}
-
-.cta-button:last-child {
-    margin-right: 0;
-}
 .about-me {
     display: flex;
     align-items: center;
@@ -76,22 +53,24 @@ header {
 }
 
 .about-me-image img {
-    max-width: 100%;
+    max-width: 75%;
     display: block;
 }
 
 .about-me-text {
     flex: 2;
     padding: 20px;
+    color: antiquewhite;
+    border: 10px solid;
 }
 
 .about-me-text h2 {
-    font-size: 24px;
+    font-size: 36px;
     margin-bottom: 10px;
 }
 
 .about-me-text p {
-    font-size: 16px;
+    font-size: 24px;
     line-height: 1.5;
 }
 Content {
@@ -108,12 +87,23 @@ Content {
     display: flex;
     flex-direction: column;
 }
+.Portfolio {
+    
+}
 
 .text {
     margin-right: 20px; /* Add margin for spacing between text and images */
 }
 
-img {
-    max-width: 100%;
+.imgbtn {
+    max-width: 75%;
     margin-bottom: 10px; /* Add margin for spacing between images */
+}
+
+.connect {
+   font:24px;
+}
+.connect-list {
+    display: block;
+    list-style-type: none;
 }
