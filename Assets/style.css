@@ -1,8 +1,5 @@
 *{ 
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 300;
-    font-style:normal;
-   
 }
 
 .header{
@@ -14,38 +11,43 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-
+}
+.h1text {
+    flex:1;
+    padding: 10px;
+    margin-left: 35px;
 }
 .nav-list {
-    display: inline-flex;
+    flex:2;
+    float: right;
+    list-style-type: none;
+    flex-direction: row;
+    align-content: center;
+    justify-content:center;
+    list-style-type: none;
 }
+.nav-list li {
+    font: 36px;
+}
+.hero {
+    background-color: #212b35;
+    background-image: url(/Users/roderickhughey/Portfolio-Endless-Possibilities/Assets/raphael-nogueira-svbDI1Pq30s-unsplash.jpg);
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+}
+
 .body {
+    font-weight: 300;
+    font-style:normal;
     margin: 0;
     padding: 0;
-   background-color: #212b35;
-}
-
-
-.hero-section img {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
-}
-
-.hero-section h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 48px;
-    color:antiquewhite; /* Choose text color */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow */
 }
 
 .about-me {
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 50px;
 }
 
 .about-me-image {
@@ -73,22 +75,17 @@
     font-size: 24px;
     line-height: 1.5;
 }
-Content {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:antiquewhite;
-    font: 24px;
-    width: 450;
-    height: 500;
-    display: inline-block;
-    text-align: center;
-    justify-content: center;
-}
+
 .image-text-container {
     display: flex;
     flex-direction: column;
 }
 .Portfolio {
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 100px;
+
 }
 
 .text {
@@ -96,14 +93,23 @@ Content {
 }
 
 .imgbtn {
-    max-width: 75%;
+    flex-grow: 1;
+    flex-basis: 50%;
     margin-bottom: 10px; /* Add margin for spacing between images */
+   
 }
-
+ img-size {
+   max-width: 250px;
+   max-height: 250px;
+}
 .connect {
-   font:24px;
+   font: 48px;
+   color: antiquewhite;
 }
 .connect-list {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content:center;
     list-style-type: none;
 }
