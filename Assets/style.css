@@ -112,6 +112,7 @@ a.active,a:hover {
     justify-content: center;
     margin-left: 100px;
     margin-right: 100px;
+    
 }
 
 .Portfolio-img {
@@ -119,16 +120,38 @@ a.active,a:hover {
     max-height: 300px;
     object-fit: cover;
 }
+.projectnew {
+width: 100%; 
 
+}
+#Hori{
+    width:90%;
+    flex-basis: 100%; /* for big picture Hori*/
+    flex-grow: 2;
+}
 .text {
     margin-right: 20px; /* Add margin for spacing between text and images */
 }
 
 .imgbtn {
     flex-grow: 1;
-    flex-basis: 50%;
+    flex-basis: 45%;
     margin-bottom: 10px; /* Add margin for spacing between images */
-    
+    position:relative;
+    border: 5px solid antiquewhite;
+}
+.project-title{
+    position: absolute;
+    bottom:20px;
+    width:90%;
+    text-align: center;
+    right:1px;
+    background-color: white;
+    color:black;
+    /* padding:5%;  */
+    padding-right: 5%;
+    padding-left: 5%;
+    letter-spacing: 2px;
 }
 .img-size {
    max-width: 250px;
@@ -137,6 +160,7 @@ a.active,a:hover {
 .connect {
    font: 48px;
    color: antiquewhite;
+
 }
 .connect-list {
     display: flex;
@@ -144,4 +168,8 @@ a.active,a:hover {
     align-content: center;
     justify-content:center;
     list-style-type: none;
+}
+
+.connect-list a{
+    color:white;
 }
