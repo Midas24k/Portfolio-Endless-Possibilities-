@@ -56,7 +56,7 @@ a.active,a:hover {
 
 .hero{
     background-color: #050709;
-    background-image: url();
+    background-image: linear-gradient(90deg, #0A090C 0%, #2A2C32 35%, #5F7981 100%);
     padding-top: 50px;
     padding-bottom: 100px;
 }
